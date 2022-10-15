@@ -1,5 +1,7 @@
 "use strict";
 
+import { Buffer } from 'buffer';
+
 function Moo(transport) {
     this.transport = transport;
     this.transport.moo = this;
